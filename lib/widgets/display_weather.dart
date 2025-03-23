@@ -51,7 +51,7 @@ class WeatherDisplay extends StatelessWidget {
                 Text(
                   weather.description,
                   style: const TextStyle(
-                    fontSize: 60,
+                    fontSize: 30,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
