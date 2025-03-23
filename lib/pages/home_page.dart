@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
           ? Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                weatherDisplay(weather: _weather!),
+                WeatherDisplay(weather: _weather!),
               ],
             )
           : const Center(

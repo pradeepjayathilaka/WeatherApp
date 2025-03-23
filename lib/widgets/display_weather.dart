@@ -3,9 +3,9 @@ import 'package:lottie/lottie.dart';
 import 'package:weatherapp/models/weather_model.dart';
 import 'package:weatherapp/utils/util_functions.dart';
 
-class weatherDisplay extends StatelessWidget {
+class WeatherDisplay extends StatelessWidget {
   final Weather weather;
-  const weatherDisplay({
+  const WeatherDisplay({
     super.key,
     required this.weather,
   });
