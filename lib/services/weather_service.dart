@@ -45,7 +45,6 @@ class WeatherService {
         throw Exception("Failed to load the weather data");
       }
     } catch (e) {
-      print(e.toString());
       throw Exception("Failed to load the weather data");
     }
   }

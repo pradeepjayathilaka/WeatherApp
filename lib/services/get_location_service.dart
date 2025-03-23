@@ -25,7 +25,7 @@ class GetLocationService {
     );
 
     //extract the city name from the place marks
-    String cityName = placeMarks[0].locality.toString();
+    String cityName = placeMarks[0].locality!;
     print(cityName);
     return cityName;
   }

@@ -21,7 +21,7 @@ class Weather {
     return Weather(
       cityName: json['name'],
       temperature: json['main']['temp'].toDouble(),
-      condition: json['weather'][0]['main'].toDouble(),
+      condition: json['weather'][0]['main'],
       description: json['weather'][0]['description'],
       pressure: json['main']['pressure'].toDouble(),
       humidity: json['main']['humidity'].toDouble(),
