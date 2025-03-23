@@ -1,4 +1,3 @@
-import 'package:geocoding/geocoding.dart';
 import 'package:weatherapp/models/weather_model.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';

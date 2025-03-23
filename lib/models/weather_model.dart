@@ -1,7 +1,7 @@
 class Weather {
   final String cityName;
   final double temperature;
-  final double condition;
+  final String condition;
   final String description;
   final double pressure;
   final double humidity;

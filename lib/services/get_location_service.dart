@@ -15,9 +15,6 @@ class GetLocationService {
       desiredAccuracy: LocationAccuracy.high,
     );
 
-    print(position.latitude);
-    print(position.longitude);
-
     //conver the location into list of place marks
     List<Placemark> placeMarks = await placemarkFromCoordinates(
       position.latitude,
